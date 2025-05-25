@@ -1,11 +1,11 @@
 import React from 'react'
-import './DashboardOverview.css';
+import './dashboardOverview.css';
 
 function DashboardOverview() {
     return (
         <div className='dashboard-overview'>
             <div>
-                <h2 style={{ color: "darkblue", marginLeft: "24px" ,marginTop:"0%" }}>Dashboard</h2>
+                <h2 style={{ color: "darkblue", marginLeft: "24px", marginTop: "0%" }}>Dashboard</h2>
             </div>
             <div className='row-dashboard'>
                 <div className='col-1-dashboard'>
