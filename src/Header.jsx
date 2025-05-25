@@ -8,7 +8,7 @@ function Header() {
                 <span className="care"><h1>care.</h1></span>
             </div>
             <div className='col-search'>
-                <input type="text" placeholder='Search' id='search' /><i><img src="bell.png" alt="notification" id='bell' /></i>
+                <input type="text" placeholder='Search' id='search' /><i><img src="/images/bell.png" alt="notification" id='bell' /></i>
             </div>
             <div className='col-user'>
                 <span className="user " style={{ border: "1px solid black", backgroundColor: "aqua", padding: "2px 8px", borderRadius: "6px", marginRight: "12px" }}>
