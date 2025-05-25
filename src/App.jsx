@@ -1,8 +1,8 @@
 
-import './App.css'
-import Header from './header'
-import Sidebar from './Sidebar'
-import DashboardMainContent from './DashboardMainContent'
+import './App.css';
+import Header from './header';
+import Sidebar from './Sidebar';
+import DashboardMainContent from './DashboardMainContent';
 
 function App() {
     return (
