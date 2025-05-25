@@ -1,6 +1,6 @@
 
 import './App.css';
-import Header from './Header';
+import Header from './header';
 import Sidebar from './Sidebar';
 import DashboardMainContent from './DashboardMainContent';
 

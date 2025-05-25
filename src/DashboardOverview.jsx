@@ -9,14 +9,14 @@ function DashboardOverview() {
             </div>
             <div className='row-dashboard'>
                 <div className='col-1-dashboard'>
-                    <img src="anatomy.png" alt="anatomy" id='anatomy' />
+                    <img src="/images/anatomy.png" alt="anatomy" id='anatomy' />
                 </div>
 
                 <div className='col-2-dashboard'>
 
                     <div className='healthStatus'>
                         <div className="healthStatus-img-wrapper">
-                            <img src="lung.jpg" alt="lung" id='healthStatusImg' />
+                            <img src="/images/lung.jpg" alt="lung" id='healthStatusImg' />
                             LUNGS
                         </div>
                         <div style={{ color: "#bdb9b9", margin: 0, fontWeight: "normal" }}>Date:26 OCT 2021</div>
@@ -27,7 +27,7 @@ function DashboardOverview() {
 
                     <div className='healthStatus'>
                         <div className="healthStatus-img-wrapper">
-                            <img src="tooth.jpg" alt="tooth" id='healthStatusImg' />
+                            <img src="/images/tooth.jpg" alt="tooth" id='healthStatusImg' />
                             TEETH
                         </div>
                         <div style={{ color: "#bdb9b9", margin: 0, fontWeight: "normal" }}>Date:26 OCT 2021</div>
@@ -37,7 +37,7 @@ function DashboardOverview() {
                     </div>
                     <div className='healthStatus'>
                         <div className="healthStatus-img-wrapper">
-                            <img src="bone.jpg" alt="bone" id='healthStatusImg' />
+                            <img src="/images/bone.jpg" alt="bone" id='healthStatusImg' />
                             BONES
                         </div>
                         <div style={{ color: "#bdb9b9", margin: 0, fontWeight: "normal" }}>Date:26 OCT 2021</div>
@@ -47,7 +47,7 @@ function DashboardOverview() {
                     </div>
                     <div className='detail-wrapper'>
                         <div className='detail'>Detail</div>
-                        <img src="arrow.png" alt="forward" style={{ marginLeft: "8px" }} />
+                        <img src="/images/arrow.png" alt="forward" style={{ marginLeft: "8px" }} />
                     </div>
                 </div>
             </div>

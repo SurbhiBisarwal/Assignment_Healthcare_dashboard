@@ -12,13 +12,13 @@ function Header() {
             </div>
             <div className='col-user'>
                 <span className="user " style={{ border: "1px solid black", backgroundColor: "aqua", padding: "2px 8px", borderRadius: "6px", marginRight: "12px" }}>
-                    <img src="user.png" alt="user" id='user' />
+                    <img src="/images/user.png" alt="user" id='user' />
                 </span>
                 <span className="notification" style={{
                     border: "1px solid black", width: "20px",
                     height: "24px", padding: "2px 8px", backgroundColor: "rgb(18 18 121)", borderRadius: "6px"
                 }}>
-                    <img src="add.png" alt="add" id='add' />
+                    <img src="/images/add.png" alt="add" id='add' />
                 </span>
             </div>
         </header>
