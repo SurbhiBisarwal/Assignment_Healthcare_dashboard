@@ -1,0 +1,63 @@
+/* Activity Chart Styles */
+.activity-chart {
+  background: #fff;
+  border-radius: 20px;
+  padding: 24px;
+  height: 50%;
+  box-shadow: 0 0 10px #e0e0e0;
+  width: 92%;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.activity-count {
+  color: #888;
+  font-size: 0.95em;
+}
+
+.activity-bars {
+  justify-content: space-around;
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+  height: 75%;
+  margin-top: 10px;
+}
+
+.activity-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 32px;
+}
+
+.bar {
+  width: 4px;
+  background: #b2e6e2;
+  border-radius: 8px 8px 0 0;
+}
+
+/* .activity-bar span {
+  font-size: 0.85em;
+  color: #888;
+  margin-top: 2px;
+} */
+.bar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 30px;
+}
+.bar-container-1 {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
