@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import DashboardMainContent from './DashboardMainContent';
+import CalendarView from './CalendarView';
 
 function App() {
     return (
@@ -15,7 +16,9 @@ function App() {
                 <div className='col-6'>
                     <DashboardMainContent />
                 </div>
-                <div className='col-4'></div>
+                <div className='col-4'>
+                    <CalendarView/>
+                </div>
             </div>
         </div>
 
