@@ -10,6 +10,12 @@ function DashboardOverview() {
             <div className='row-dashboard'>
                 <div className='col-1-dashboard'>
                     <img src="/images/anatomy.png" alt="anatomy" id='anatomy' />
+      <div className="label heart-label">
+        ❤️ <span>Healthy Heart</span>
+      </div>
+      <div className="label leg-label">
+        🦵 <span>Healthy Leg</span>
+      </div>
                 </div>
 
                 <div className='col-2-dashboard'>

@@ -5,7 +5,7 @@
   padding: 24px;
   height: 50%;
   box-shadow: 0 0 10px #e0e0e0;
-  width: 92%;
+  width: 82%;
 }
 
 .activity-header {
@@ -52,7 +52,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  width: 30px;
+  width: 100%;
+  
 }
 .bar-container-1 {
   height: 20%;
@@ -61,3 +62,4 @@
   align-items: center;
   gap: 2px;
 }
+

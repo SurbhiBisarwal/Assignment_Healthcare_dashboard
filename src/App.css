@@ -24,7 +24,7 @@
   flex-direction: column;
   background-color: aliceblue;
   height: 95vh;
-  border: 3px solid black;
+  font-style: normal;
   padding: 10px;
 }
 .row-innercontainer {
@@ -34,12 +34,12 @@
   justify-content: center;
   flex-direction: row;
   background-color: whitesmoke;
-  border: black solid 1px;
+ 
   border-radius: 50px;
   padding: 10px;
 }
 .col-2 {
-  border: black 1px solid;
+
   height: 100%;
   width: 20%;
   border-top-left-radius: 50px;
@@ -47,7 +47,7 @@
   background-color: rgb(234, 241, 249);
 }
 .col-4 {
-  border: black 1px solid;
+ 
   height: 100%;
   width: 28%;
   background-color: rgb(234, 241, 249);
@@ -55,7 +55,7 @@
   border-bottom-right-radius: 50px;
 }
 .col-6 {
-  border: black 1px solid;
+ 
   height: 100%;
   width: 60%;
   overflow: auto;

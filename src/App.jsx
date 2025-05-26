@@ -4,6 +4,8 @@ import Header from './Header';
 import Sidebar from './Sidebar';
 import DashboardMainContent from './DashboardMainContent';
 import CalendarView from './CalendarView';
+import Appointment from './Appointment';
+import UpcomingSchedule from './UpcomingSchedule';
 
 function App() {
     return (
@@ -18,6 +20,8 @@ function App() {
                 </div>
                 <div className='col-4'>
                     <CalendarView/>
+                    <Appointment/>
+                    <UpcomingSchedule/>
                 </div>
             </div>
         </div>

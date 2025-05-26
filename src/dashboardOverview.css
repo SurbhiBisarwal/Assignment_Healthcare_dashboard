@@ -8,6 +8,7 @@
 }
 .col-1-dashboard {
   width: 40%;
+  position: relative;
   height: 100%;
   box-shadow: #e0e0e0 0px 0px 10px;
   border-radius: 10px;
@@ -42,7 +43,7 @@
 #anatomy {
   margin-left: 45px;
   height: 100%;
-  width: 70%;
+  width: 54%;
 }
 #healthStatusImg {
   height: 44px;
@@ -75,4 +76,32 @@
   display: flex;
   flex-direction: row;
   padding-top: 35px;
+}
+
+
+.label {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 16px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  white-space: nowrap;
+}
+
+.heart-label {
+  top: 22%;
+    right: 4%;
+  background-color: #3d3af8;
+ 
+}
+
+.leg-label {
+  bottom: 26%;
+  background-color: #00d2ff;
+  color: #000;
+
 }
