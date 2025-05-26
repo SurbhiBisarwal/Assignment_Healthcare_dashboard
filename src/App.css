@@ -105,7 +105,7 @@
 }
 li {
   list-style-type: none;
-  margin: 30px;
+  margin: 20%;
   margin-left: 0px;
 }
 
@@ -115,6 +115,6 @@ h5 {
 }
 
 .setting {
-  margin-top: 65px;
+  margin-top: 20%;
   left: 0;
 }
